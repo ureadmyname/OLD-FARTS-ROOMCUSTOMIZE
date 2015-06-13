@@ -114,7 +114,7 @@ else {API.sendChat("/me What are subscriptions? http://goo.gl/Lcw6wX");}}};
 bot.loadChat();}
 localStorage.setItem("basicBotsettings", JSON.stringify({
 
-botName: "EASY STREET BOT",
+botName: "EASY-STREET-BOT",
 language: "english",
 chatLink: "https://rawgit.com/ureadmyname/EASYSTREETBOT/master/lang/en.json",
 startupCap: 1,
