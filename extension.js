@@ -13,6 +13,13 @@ var minute= 1000* 60;
 bot.retrieveSettings();
 
 setInterval(function () {
+if(autoRoulette === true) {
+API.sendChat("!plzwoot");
+}
+},
+1000 * 60 * 49);
+
+setInterval(function () {
 if(autoFav === true) {
 API.sendChat("!fav");
 }
@@ -47,6 +54,17 @@ if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {
 autoRoulette = !autoRoulette;
 API.sendChat("/me Roulette now set to " + autoRoulette);}}};
+
+bot.commands.automatePlzwoot = {
+command: ['autoplzwoot'],
+rank: 'manager',
+type: 'exact',
+functionality: function (chat, cmd) {
+if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+if (!bot.commands.executable(this.rank, chat)) return void (0);
+else {
+autoPlzwoot = !autoPlzwoot;
+API.sendChat("/me Plzwoot now set to " + autoPlzwoot);}}};
 
 bot.commands.bleepbloopCommand = {
 command: 'bleepbloop',
@@ -110,6 +128,15 @@ functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me What are subscriptions? http://goo.gl/Lcw6wX");}}};
+
+bot.commands.plzwootCommand = {
+command: 'plzwoot',
+rank: 'user',
+type: 'exact',
+functionality: function (chat, cmd) {
+if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+if (!bot.commands.executable(this.rank, chat)) return void (0);
+else {API.sendChat("/me If you are on the dj waitlist please your fellow djs :)");}}};
 
 bot.loadChat();}
 localStorage.setItem("basicBotsettings", JSON.stringify({
