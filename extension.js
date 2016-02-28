@@ -100,7 +100,7 @@ type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me Remember to click the star in the top bar to favorite this room!!");}}};
+else {API.sendChat("/me Remember to click the star in the top bar to favorite this room!! http://i.imgur.com/chNflCb.png");}}};
 
 bot.commands.doarefreshCommand = {
 command: 'ref',
