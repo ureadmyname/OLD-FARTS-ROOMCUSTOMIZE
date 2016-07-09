@@ -1,1 +1,1 @@
-javascript:(function(){$.getScript('https://github.com/ureadmyname/EASYSTREETBOTCUSTOMIZE/blob/master/extension.js');})();
+javascript:(function(){$.getScript('https://rawgit.com/ureadmyname/EASYSTREETBOTCUSTOMIZE/master/extension.js');})();
