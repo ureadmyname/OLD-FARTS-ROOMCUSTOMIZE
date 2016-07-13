@@ -141,7 +141,7 @@ else {API.sendChat("/me please woot for your fellow djs :)");}}};
 bot.loadChat();}
 localStorage.setItem("basicBotsettings", JSON.stringify({
 
-botName: "EASY-STREET-BOT",
+botName: "K - NINE",
 language: "english",
 chatLink: "https://rawgit.com/ureadmyname/EASYSTREETBOT/master/lang/en.json",
 startupCap: 1,
