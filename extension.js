@@ -143,7 +143,7 @@ localStorage.setItem("basicBotsettings", JSON.stringify({
 
 botName: "K - NINE",
 language: "english",
-chatLink: "https://rawgit.com/ureadmyname/EASYSTREETBOT/master/lang/en.json",
+chatLink: "https://rawgit.com/ureadmyname/OLD-FARTS-ROOMBOT/master/lang/en.json",
 startupCap: 1,
 startupVolume: 0,
 startupEmoji: false,
