@@ -1,1 +1,1 @@
-javascript:(function(){$.getScript('https://rawgit.com/ureadmyname/EASYSTREETBOTCUSTOMIZE/master/extension.js');})();
+javascript:(function(){$.getScript('https://rawgit.com/ureadmyname/OLD-FARTS-ROOMBOT/master/basicbot.js');})();
