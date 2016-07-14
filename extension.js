@@ -100,7 +100,16 @@ type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me Remember to click the star in the top bar to favorite this room!! http://i.imgur.com/chNflCb.png");}}};
+else {API.sendChat("/me Remember to click the star in the top bar to favorite this room!! http://i.imgur.com/n6xjMzI.png");}}};
+
+bot.commands.plzwootCommand = {
+command: 'plzwoot',
+rank: 'user',
+type: 'exact',
+functionality: function (chat, cmd) {
+if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+if (!bot.commands.executable(this.rank, chat)) return void (0);
+else {API.sendChat("/me We encourage and appreciate wooting, please woot for your fellow djs :)");}}};
 
 bot.commands.doarefreshCommand = {
 command: 'ref',
@@ -128,15 +137,6 @@ functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me What are subscriptions? http://goo.gl/Lcw6wX");}}};
-
-bot.commands.plzwootCommand = {
-command: 'plzwoot',
-rank: 'user',
-type: 'exact',
-functionality: function (chat, cmd) {
-if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me please woot for your fellow djs :)");}}};
 
 bot.loadChat();}
 localStorage.setItem("basicBotsettings", JSON.stringify({
