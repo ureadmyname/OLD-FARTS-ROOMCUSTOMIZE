@@ -143,7 +143,7 @@ localStorage.setItem("basicBotsettings", JSON.stringify({
 
 botName: "K - NINE",
 language: "english",
-chatLink: "https://rawgit.com/ureadmyname/OLD-FARTS-ROOMBOT/master/lang/en.json",
+chatLink: "https://cdn.jsdelivr.net/gh/ureadmyname/OLD-FARTS-ROOMBOT/lang/en.json",
 startupCap: 1,
 startupVolume: 0,
 startupEmoji: false,
@@ -195,8 +195,8 @@ messageInterval: 30,
 songstats: true,
 commandLiteral: "!",
 blacklists: {
-NSFW: "https://rawgit.com/ureadmyname/basicBot-customization/master/ExampleNSFWlist.json",
-OP: "https://rawgit.com/ureadmyname/OLD-FARTS-ROOMCUSTOMIZE/master/ExampleOPlist.json",
-BANNED: "https://rawgit.com/ureadmyname/basicBot-customization/master/ExampleBANNEDlist.json"}}));
-$.getScript("https://rawgit.com/ureadmyname/OLD-FARTS-ROOMBOT/master/basicbot.js", extend);
+NSFW: "https://cdn.jsdelivr.net/gh/ureadmyname/basicBot-customization/ExampleNSFWlist.json",
+OP: "https://cdn.jsdelivr.net/gh/ureadmyname/OLD-FARTS-ROOMCUSTOMIZE/ExampleOPlist.json",
+BANNED: "https://cdn.jsdelivr.net/gh/ureadmyname/basicBot-customization/ExampleBANNEDlist.json"}}));
+$.getScript("https://cdn.jsdelivr.net/gh/ureadmyname/OLD-FARTS-ROOMBOT/basicbot.js", extend);
 }).call(this);
